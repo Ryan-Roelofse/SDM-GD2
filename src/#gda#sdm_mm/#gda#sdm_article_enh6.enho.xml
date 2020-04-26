@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_IMPL</TOOL>
+   <SHORTTEXT>GlueData:SDM Article Derivations Enhancement BADI Implementation</SHORTTEXT>
+   <SPOT_NAME>BADI_MAT_F_SPEC_SEL</SPOT_NAME>
+   <IMPL>
+    <ENH_BADI_IMPL_DATA>
+     <SPOT_NAME>BADI_MAT_F_SPEC_SEL</SPOT_NAME>
+     <BADI_NAME>BADI_MAT_F_SPEC_SEL</BADI_NAME>
+     <IMPL_NAME>/GDA/SDM_ARTICLE_BADI_ENH6</IMPL_NAME>
+     <IMPL_CLASS>/GDA/SDM_CL_MAT_F_SPEC_SEL</IMPL_CLASS>
+     <ACTIVE>X</ACTIVE>
+     <IMPL_SHORTTEXT>Implementation: BADI for Material Special Field Selection</IMPL_SHORTTEXT>
+     <IMPL_SHORTTEXT_ID>00155D0A0C061ED992AB50B0E07BD68F</IMPL_SHORTTEXT_ID>
+    </ENH_BADI_IMPL_DATA>
+   </IMPL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

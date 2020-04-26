@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/GDA/SDM_CL_COMMON_CORE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>GlueData:SDM:Common Core Functionality</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_COMMON_CORE</CLSNAME>
+     <CMPNAME>GET_SDM_OBJECTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return SDM Object list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_COMMON_CORE</CLSNAME>
+     <CMPNAME>GET_SDM_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return SDM Types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_COMMON_CORE</CLSNAME>
+     <CMPNAME>PX_FDT_INPUT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>FDT: Invalid Input</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_COMMON_CORE</CLSNAME>
+     <CMPNAME>PX_SDM_ROOT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GlueData:SDM Exception Class</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

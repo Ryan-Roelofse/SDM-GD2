@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>GlueData: SDM Post Processing BRF Funcs.</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/GDA/LSDM_PP_BRFTOP</SOBJ_NAME>
+    <SOBJ_NAME>/GDA/SAPLSDM_PP_BRF</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/GDA/SDM_PP_BRF_PRICING1</FUNCNAME>
+     <SHORT_TEXT>GlueData: SDM BRF Pricing 1</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>X_MATNR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>Y_RESULT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/GDA/SDM_ST_PRICING</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>X_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>Y_RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X=true, -=false, space=unknown)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/GDA/SDM_PP_BRF_SRC_LIST1</FUNCNAME>
+     <SHORT_TEXT>GlueData: SDM BRF Source List 1</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>X_MATNR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>Y_RESULT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/GDA/SDM_DE_RESULT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>X_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>Y_RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X=true, -=false, space=unknown)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/GDA/SDM_PP_BRF_SRC_LIST2</FUNCNAME>
+     <SHORT_TEXT>GlueData: SDM BRF Source List 1</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>X_MATNR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>Y_RESULT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/GDA/SDM_TT_SRCLIST</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>XT_EORD</PARAMETER>
+       <DBSTRUCT>EORD</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>XT_RMMW1</PARAMETER>
+       <DBSTRUCT>RMMW1</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>X_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>Y_RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X=true, -=false, space=unknown)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_EORD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Purchasing Source List</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_RMMW1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Master Maintenance: Initial Parameters (Retail)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/GDA/SDM_PP_BRF_TARIFF1</FUNCNAME>
+     <SHORT_TEXT>GlueData: SDM BRF Tarriffs 1</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>X_MATNR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>XT_MVKE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/GDA/SDM_T_MVKE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>Y_RESULT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/GDA/SDM_TT_TARIFFS</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>X_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_MVKE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>Y_RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>GlueData:SDM:Tariff Table</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

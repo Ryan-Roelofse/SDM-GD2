@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/GDA/SDM_CL_MESSAGE_LOG</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Message</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_MESSAGE_LOG</CLSNAME>
+     <CMPNAME>ADD_MESSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add a message to the log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_MESSAGE_LOG</CLSNAME>
+     <CMPNAME>ADD_MESSAGE_OBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add a message to the message log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_MESSAGE_LOG</CLSNAME>
+     <CMPNAME>GET_MESSAGES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get all messages that have been logged</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_MESSAGE_LOG</CLSNAME>
+     <CMPNAME>GET_MESSAGE_AS_STRING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the most important message as a string</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_MESSAGE_LOG</CLSNAME>
+     <CMPNAME>HAS_USER_MESSAGES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Does the message log contain messages?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_MESSAGE_LOG</CLSNAME>
+     <CMPNAME>INITIALISE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Initialise the message log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_MESSAGE_LOG</CLSNAME>
+     <CMPNAME>OUTPUT_MESSAGES_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Output messages alv</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_MESSAGE_LOG</CLSNAME>
+     <CMPNAME>OUTPUT_TO_SPOOL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Output all messages in the log to the spool</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_MESSAGE_LOG</CLSNAME>
+     <CMPNAME>OUTPUT_USER_MESSAGES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Output the user messages</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_MESSAGE_LOG</CLSNAME>
+     <CMPNAME>REFRESH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Refresh all messages</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_MESSAGE_LOG</CLSNAME>
+     <CMPNAME>USER_MESSAGE_EXISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Does a user message exist?</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

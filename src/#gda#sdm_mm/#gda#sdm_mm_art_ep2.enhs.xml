@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_DEF</TOOL>
+   <SHORTTEXT>Test 2</SHORTTEXT>
+   <BADI_DATA>
+    <PGMID>R3TR</PGMID>
+    <OBJ_NAME>/GDA/SDM_CL_IM_ART_CHK</OBJ_NAME>
+    <OBJ_TYPE>CLAS</OBJ_TYPE>
+    <MAIN_TYPE>CLAS</MAIN_TYPE>
+    <MAIN_NAME>/GDA/SDM_CL_IM_ART_CHK</MAIN_NAME>
+    <PROGRAM>/GDA/SDM_CL_IM_ART_CHK========CP</PROGRAM>
+    <DEF_HOOKS>
+     <ENH_HOOK_DEF_EXT>
+      <EXTID>1</EXTID>
+      <FULL_NAME>\PR:/GDA/SDM_CL_IM_ART_CHK========CP\EX:/GDA/SDM_MM_ART_EP2</FULL_NAME>
+      <ENHMODE>D</ENHMODE>
+      <DEF_UNIT>
+       <INT_TYPE>PN</INT_TYPE>
+       <INT_NAME>N-&gt;/GDA/SDM_MM_POI_ART_VALIDATION</INT_NAME>
+       <INCLUDE>/GDA/SDM_MM_POI_ART_VALIDATION</INCLUDE>
+      </DEF_UNIT>
+     </ENH_HOOK_DEF_EXT>
+    </DEF_HOOKS>
+   </BADI_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/GDA/SDM_CL_BRF_MAPPING</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>GlueData:SDM:BRF Function Mapping</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>SDM object id and module is required</ENTRY>
+     <LENGTH>80</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>No SDM license exists for specified module</ENTRY>
+     <LENGTH>76</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>SDM license for this module is currently not valid</ENTRY>
+     <LENGTH>100</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>SDM license for this module has expired</ENTRY>
+     <LENGTH>78</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>SDM BRF GUID not found</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>SDM BRF Inactive</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>No SDM license(s) exist</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>SDM deactivated for Client &amp;1</ENTRY>
+     <LENGTH>56</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_BRF_MAPPING</CLSNAME>
+     <CMPNAME>MC_OBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GlueData:SDM:Object Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_BRF_MAPPING</CLSNAME>
+     <CMPNAME>MC_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>SDM:SDM Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_BRF_MAPPING</CLSNAME>
+     <CMPNAME>MV_ACTIVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_BRF_MAPPING</CLSNAME>
+     <CMPNAME>MV_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Field of length 16</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_BRF_MAPPING</CLSNAME>
+     <CMPNAME>MV_CLIENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Client</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_BRF_MAPPING</CLSNAME>
+     <CMPNAME>MV_GUID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>FDT: Universal Unique Identifier</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_BRF_MAPPING</CLSNAME>
+     <CMPNAME>MV_OBJECT_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GlueData:SDM:Object Type ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/GDA/SDM_CL_BRF_MAPPING</CLSNAME>
+     <CMPNAME>MV_RESULT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=true, -=false, space=unknown)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

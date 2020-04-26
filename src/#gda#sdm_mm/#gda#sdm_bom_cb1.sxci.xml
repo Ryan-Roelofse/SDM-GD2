@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SXCI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SXCI>
+    <IMPLEMENTATION_DATA>
+     <IMP_NAME>/GDA/SDM_BOM_CB1</IMP_NAME>
+     <TEXT>GlueData:SDM BOM Validations Enhancement CBADI Impl</TEXT>
+     <IMP_CLASS>/GDA/CL_IM_SDM_BOM_CB1</IMP_CLASS>
+     <EXIT_NAME>BOM_UPDATE</EXIT_NAME>
+     <INTER_NAME>IF_EX_BOM_UPDATE</INTER_NAME>
+    </IMPLEMENTATION_DATA>
+   </SXCI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

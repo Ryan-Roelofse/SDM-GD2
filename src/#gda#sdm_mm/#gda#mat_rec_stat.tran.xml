@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>/GDA/MAT_REC_STAT</TCODE>
+    <PGMNA>/GDA/SDM_MAT_REC_STAT_REP2</PGMNA>
+    <DYPNO>1000</DYPNO>
+    <CINFO>hA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>/GDA/MAT_REC_STAT</TCODE>
+    <S_WIN32>X</S_WIN32>
+    <S_PLATIN>X</S_PLATIN>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>E</SPRSL>
+    <TCODE>/GDA/MAT_REC_STAT</TCODE>
+    <TTEXT>SDM: Material Record Status Report</TTEXT>
+   </TSTCT>
+   <AUTHORIZATIONS>
+    <TSTCA>
+     <TCODE>/GDA/MAT_REC_STAT</TCODE>
+     <OBJCT>/GDA/MAT_R</OBJCT>
+     <FIELD>ACTVT</FIELD>
+     <VALUE>16</VALUE>
+    </TSTCA>
+   </AUTHORIZATIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

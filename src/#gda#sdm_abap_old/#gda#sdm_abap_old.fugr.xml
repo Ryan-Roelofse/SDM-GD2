@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>GlueData:SDM:Old</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/GDA/LSDM_ABAP_OLDF01</SOBJ_NAME>
+    <SOBJ_NAME>/GDA/LSDM_ABAP_OLDTOP</SOBJ_NAME>
+    <SOBJ_NAME>/GDA/SAPLSDM_ABAP_OLD</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/GDA/SDM_MM_MARA_GET_OLD</FUNCNAME>
+     <SHORT_TEXT>Get MARA Data for Record Status Report</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>X_MAX_ROWS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>P_DBACC</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>XT_MATERIALS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MATNR_TTY</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>XT_MARA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/GDA/SDM_T_MARA</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>XT_MATNR</PARAMETER>
+       <DBSTRUCT>MAT_RANGE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>XT_ERSDA</PARAMETER>
+       <DBSTRUCT>RANGE_S_DATS</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>XT_ERNAM</PARAMETER>
+       <DBSTRUCT>ERNAM_RAN</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>XT_LAEDA</PARAMETER>
+       <DBSTRUCT>RANGE_S_DATS</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>XT_AENAM</PARAMETER>
+       <DBSTRUCT>ERNAM_RAN</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>XT_MTART</PARAMETER>
+       <DBSTRUCT>WART_SR_MTART</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>XT_MATKL</PARAMETER>
+       <DBSTRUCT>RDM_SR_MATKL</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>XT_MSTAE</PARAMETER>
+       <DBSTRUCT>/GDA/SDM_S_MSTAE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>XT_BWSCL</PARAMETER>
+       <DBSTRUCT>/GDA/SDM_S_BWSCL</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>XT_ATTYP</PARAMETER>
+       <DBSTRUCT>WART_SR_ATTYP</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>XT_WERKS</PARAMETER>
+       <DBSTRUCT>WERKS_RANG</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>X_MAX_ROWS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Maximum Number of Hits</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_MATERIALS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_MARA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>GlueData:SDM: Table Type MARA</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure: Select Options</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_ERSDA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure: Select Options</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_ERNAM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure: Select Options</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_LAEDA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure: Select Options</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_AENAM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure: Select Options</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_MTART</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure: Select Options</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_MATKL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure: Select Options</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_MSTAE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure: Select Options</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_BWSCL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure: Select Options</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_ATTYP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure: Select Options</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XT_WERKS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure: Select Options</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GDA/SDM1</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>SDM Messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>SDM: Telephone format is 27xx xxx xxxx.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>SDM: Mobile Telephone format is xxx xxx xxxx</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>SDM: FAX format xxxxxxxxxx (no space)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>SDM: Name may not be longer then 35 Characters</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>SDM: Bank key may not contain any space</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>SDM: Bank account key may not contain any space</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>SDM: Material Number &amp;1 Volume Unit is &amp;2 - should be CD3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>SDM: Customer name may not contain &amp;1 characters. Please remove.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>SDM: Postal Code may not contaim alphanumeric characters</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>SDM: Country is required input!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>SDM: City of Postal Code may not contain numeric characters</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>SDM: The customer Region is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>SDM: Customer name must have atleast 3 or more charcters</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>SDM: Title field cannot be blank if Name is provided.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>SDM: Error: The Customer Name already exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>SDM: Vat number error. Invalid characters found: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>SDM: Customer Street/House number is required.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>SDM: The Customer name (&amp;1) does not exist in the Customer approved list</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>BRF: Field Production/Inspection Memo may not be initial!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>BRF: Field Prod/Insp Memo input value &apos;&amp;1&apos; not allowed. See long text!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>BRF: For External Procurement;&quot;F&quot; Planned Delivery Time must be &gt; 0.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>BRF: For External Procurement;&quot;E&quot; Planned Delivery Time must be &apos;0&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>BRF: Material Pricing Group may not be initial for Sales Org 6101</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>BRF: Commission Group must be populated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>BRF: Material Group 4 must be populated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>BRF: Material Group is equal to first 4 characters of the prod hierarchy</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>BRF: Purchasing Group is egual to last 3 character of plant</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>BRF: Profit Center &amp;2 for plant &amp;1 is incorrect</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>BRF: Valution Class &amp;1 is incorrect. Correct entry is 7910</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>BRF: Sloc MRP indicator is incorrect. See long text for input values</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>BRF: For Plant &amp;1 Neg Stock Indicator must be set. Please tick.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>BRF: Production Storage Location is &apos;0001&apos; for Sales Org &apos;6000-6999&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>BRF: &apos;Do Not Cost&apos; must be ticked for KMAT materials!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>BRF: Availability Check for Config Materials is &apos;KP&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>BRF: Availability Check for NON Config Materials is &apos;02&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>BRF: Strategy Group for Config Materials is &apos;Z3&apos; or &apos;Z4&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>BRF: Strategy Group for NON Config Materials is &apos;40&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>BRF: Production Storage Location is &apos;0001&apos; for Basic material ST60</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>BRF: MRP type must be &apos;PD&apos; when reorder point and max level are filled in</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>BRF: MRP type must be &apos;ND&apos; when reorder point and max level are blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>BRF: Load Group for plant &amp;1 is incorrect. See long text.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>BRF: For Plant &amp;2 Purchase Group must be 001</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>BRF: Material group &amp;3 must have 8 digits, please select 8 digits value.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>BRF: Exception report test For Material &amp;1 ABC indicator is &amp;2aaaah</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>BRF: Exception report test For Material &amp;1 ABC indicator is &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>BRF: TEST Loop MAT_MEINH with MTART &amp;2 and MEINH &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>BRF_EXC:Test neg stock may not be ticked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>BRF_EXC: Test Purchase Group = 001 for plant 1000</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>BFR_LP: Material Group = &amp;1 and Authorisation Grp = &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>BRF_LP: Mat Grp = &amp;1 and Plant = &amp;2 and LoadGrp = &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>BRF_LP: Material &amp;1 - ABC Indicator = &amp;3 for Plant &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>BRF: Storage location MRP indicator may not be 2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>BRF: For SalesOrg &amp;1 DistrCh &amp;2 ;Material Pricing Group may not be empty.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>BFR: Gross Weigth &amp;1 may not be less or equal to Net Weight &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>BRF_CVI TEST ZTERM is initial</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>SDM: The Character(s): &amp;1 may not be used, please remove</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>SDM: Plant Status must be Y3, stock exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>SDM: Plant Status must be Y4, no stock exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>SDM: Automatic PO must be ticked.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>SDM: No BRFplus Error for given selection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>SDM: Problem displaying ALV grid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>SDM: Plant is required field, please enter</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>SDM: BRF+ Function is inactive</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>SDM: Invalid Product Hierarchy</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>SDM: Product Hierarchy not selected - &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>SDM: Article Price Band Cat must be filled.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>SDM: Article Old Materail number must be filled</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>270</MSGNR>
+     <TEXT>SDM: Test MEK1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>300</MSGNR>
+     <TEXT>SDM: Service &amp;1; Service type GRND may not be used.Please select &apos;SERV&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>301</MSGNR>
+     <TEXT>SDM: Service &amp;1; Change Text Indicator may not selected, please deselect</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>302</MSGNR>
+     <TEXT>SDM: Service &amp;1; Mat/Serv Group input required. Select 8 digits value</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>303</MSGNR>
+     <TEXT>SDM: Service &amp;1; Mat/Serv Group &amp;2 may not be changed to 6 digits</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>304</MSGNR>
+     <TEXT>SDM: Service &amp;1; Mat/Serv Grp &amp;2 - Valuation Class &amp;3 incorrect. See Ltxt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>305</MSGNR>
+     <TEXT>SDM: Service &amp;1; Valuation Class &amp;2 may not be used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>306</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>500</MSGNR>
+     <TEXT>SDM: X-plant status may not be blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>501</MSGNR>
+     <TEXT>SDM: X-plant status valid from date may not be blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>502</MSGNR>
+     <TEXT>SDM: Rounding Profile may not be blank for MRP type &apos;ND&apos; - Store</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>503</MSGNR>
+     <TEXT>SDM: Rounding Profile may not be blank for MRP type &apos;ND&apos; - DC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>504</MSGNR>
+     <TEXT>SDM: MRP controller may not be blank - Store</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>505</MSGNR>
+     <TEXT>SDM: MRP controller may not be blank -  DC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>506</MSGNR>
+     <TEXT>SDM: Rem. Shelf Life must be 1 if Tot. shelf life is not blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>507</MSGNR>
+     <TEXT>SDM: Disc. in kind must be 1 for material type FOOD</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>508</MSGNR>
+     <TEXT>SDM: Supply source must be 1 for material type FOOD</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>509</MSGNR>
+     <TEXT>SDM: Var. Order Unit must be 1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>510</MSGNR>
+     <TEXT>SDM: MRP Type must be &apos;ND&apos; for material type FOOD - DC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>511</MSGNR>
+     <TEXT>SDM: Distribution profile must be &apos;001&apos; - DC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>512</MSGNR>
+     <TEXT>SDM: Automatic purchase order must be flagged - DC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>513</MSGNR>
+     <TEXT>SDM: Availabilty Check must be &apos;02&apos; - DC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>514</MSGNR>
+     <TEXT>SDM: Negative Stock Indicator must be flagged - DC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>515</MSGNR>
+     <TEXT>SDM: Supply source must be 1 for material type FOOD - Store</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>516</MSGNR>
+     <TEXT>SDM: Account Assignment Group may not be blank - Sales Org &amp;1 Distr.Ch &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>517</MSGNR>
+     <TEXT>SDM: DC Storage Locaction must be default 0001</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>518</MSGNR>
+     <TEXT>SDM: Account group may not be blank - Sales Org &amp;1 Distr.Ch &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>519</MSGNR>
+     <TEXT>SDM: Listing for store must be 01</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>520</MSGNR>
+     <TEXT>SDM: Listing for store must be 01 (MVKE) - Sales Org &amp;1 Distr.Ch &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>521</MSGNR>
+     <TEXT>SDM: No Repeat Key must be selected - Sales Org &amp;1 Distr.Ch &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>522</MSGNR>
+     <TEXT>SDM: Tax Category must be 1 for country ZA</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>523</MSGNR>
+     <TEXT>SDM: For Article type &amp; , &apos;No Cash Discount&apos; flag may NOT be set</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>600</MSGNR>
+     <TEXT>SDM: BRF Mapping inactive or not setup</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>601</MSGNR>
+     <TEXT>SDM: Config table not maintained correctly</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>640</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>650</MSGNR>
+     <TEXT>SDM: No PIR records exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>651</MSGNR>
+     <TEXT>SDM: EINA mark for deletion</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>652</MSGNR>
+     <TEXT>SDM: EINE mark for deletion</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>653</MSGNR>
+     <TEXT>SDM: ZCSA PIR Consignment type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>654</MSGNR>
+     <TEXT>SDM: ZCSA Material Number Used by Supplier must be blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>655</MSGNR>
+     <TEXT>SDM: Material Number Used by Supplier may not be blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>700</MSGNR>
+     <TEXT>SDM: No source list record exist for article &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>701</MSGNR>
+     <TEXT>SDM: Existing source list record for article &amp; is not assigned to DC/ST</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>702</MSGNR>
+     <TEXT>SDM: Existing source list record for article &amp; is only assigned to ST</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>703</MSGNR>
+     <TEXT>SDM: Existing source list record for article &amp; is no longer valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>750</MSGNR>
+     <TEXT>SDM: Article type ZEXP not applicable for sales price</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>751</MSGNR>
+     <TEXT>SDM: Existing pricing condition for article &amp; is no longer valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>752</MSGNR>
+     <TEXT>SDM: No pricing condition exists for article &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GDA/SDM1</ARBGB>
+     <MSGNR>999</MSGNR>
+     <TEXT>&amp;&amp;&amp;&amp;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

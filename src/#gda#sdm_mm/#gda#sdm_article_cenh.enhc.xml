@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SHORTTEXT>GlueData:SDM: Article Master Composite Enhancement</SHORTTEXT>
+   <ENH_CHILDS>
+    <ENHNAME>/GDA/SDM_ARTICLE_ENH2</ENHNAME>
+    <ENHNAME>/GDA/SDM_ARTICLE_ENH3</ENHNAME>
+    <ENHNAME>/GDA/SDM_ARTICLE_ENH4</ENHNAME>
+    <ENHNAME>/GDA/SDM_ARTICLE_ENH5</ENHNAME>
+   </ENH_CHILDS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
