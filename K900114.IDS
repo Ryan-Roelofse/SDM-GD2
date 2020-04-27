@@ -1,0 +1,7 @@
+SOTERION     T IDQ        1   0   1   0   0   1   0   0   0   2  740   .  0   0   0   0   0 800
+#A
+#/1/                          A   G   D   C   R   7   T   -   Z RELE EX.  _   _   _   _   _ CLI
+IDS f 0000 20200423174651 saphost1       idsadm
+IDS e 0000 20200423174656 saphost1       idsadm
+IDQ < 0000 20200423174659 saphost1       idsadm
+IDS E 0000 20200423174659 saphost1       idsadm
